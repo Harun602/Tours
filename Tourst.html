@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Free Web tutorials">
+    <meta name="keywords" content="HTML, CSS, Bootstrap, JavaScript">
+    <meta name="author" content="Dr Md Harun, mdharunurrashide@gmail.com, Phone 01963-895602">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Tours</title>
+    <!-- favicon.ico -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styel.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo">জার্মান হোমিও কমপ্লেক্স</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Glary</a></li>
+            <li><a href="#">About</a></li>
+            <li class="ctn"><a href="#">Countact</a></li>
+        </ul>
+        <img src="images/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2>Hello Bangladesh</h2>
+            <div class="line"></div>
+            <h1>Dhaka is capital of Bangladesh</h1>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </header>
+    <!-- Events -->
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="images/img1.png" alt="">
+                <h4>Gagipur Sapary Parks</h4>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy</p>
+                <a href="#" class="ctn">hello</a>
+            </div>
+            <div class="col">
+                <img src="images/img2.png" alt="">
+                <h4>Walking Holiday</h4>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal
+                    distribution of letters, as opposed to using 'Content here, content here', making it look like
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy</p>
+                <a href="#" class="ctn">hello</a>
+            </div>
+        </div>
+    </section>
+    <section class="explore">
+        <div class="explore-content">
+            <h1>explore the world</h1>
+            <div class="line"></div>
+            <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                infancy</p>
+            <a href="#" class="ctn">Learn Moer</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>upcoming tours and distination</h1>
+                <div class="line"></div>
+                <p>It is a long established fact that a reader will be distracted by the readable content of a page when
+                    readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their
+                    default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
+                    infancy</p>
+                <a href="#" class="ctn">Welcome</a>
+            </div>
+
+            <div class="col images-col">
+                <div class="images-gallary">
+                    <img src="images/img3.png" alt="">
+                    <img src="images/img4.png" alt="">
+                    <img src="images/img5.png" alt="">
+                    <img src="images/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>© Copyright 2021 Dr Md Harunur Rashid</p>
+
+    </section>
+
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+
+</html>
